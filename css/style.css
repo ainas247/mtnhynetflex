@@ -1,0 +1,228 @@
+        @font-face{
+            font-family: "mtn"; 
+            src:url("font/MTNBrighterSans-Regular.otf");
+        }
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+
+        #container{
+            width: 100%;
+        }
+        #top{
+            height: 80px;
+            background-color: #ffcc00;
+        }
+        #logo-div{
+            width: 170px;
+            margin-left: 15%;
+            padding: 10px;
+        }
+        #logo-div #logo{
+            float: left;
+            width: 60px;
+            height:60px;
+        }
+         #logo-div #logo img{
+            width: 100%;
+            height: 100%;
+        }
+         #logo-div h2{
+            float: left;
+            font-family: 'mtn';
+            font-size: 18px;
+            padding-top: 20px;
+            margin-left: 4px;
+        }
+        
+        #section2div{
+            background-image: url("../image/mtnimage.jpeg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 500px;
+        }
+         #section2div h3{
+             padding-top: 20px;
+             color: white;
+             text-align: center;
+             font-family: 'mtn';
+         }
+
+            #section2div #hideh1{
+             padding-top: 20px;
+             color: white;
+             text-align: center;
+             font-family: 'mtn';
+             display: none;
+         }
+
+         #form{
+             width: 225px;
+             background-color: white;
+             height: 280px;
+             margin-left: 17.4%;
+             margin-right: 20px;
+             margin-top: 80px;
+             border-radius: 20px;
+             text-align: center;
+             padding: 0px;
+             box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.5); 
+             float: left;
+
+         }
+
+         
+         #form input{
+            display: block;
+            width: 77%;
+            height:35px;
+            margin: auto;
+            padding-left: 10px;
+            margin-top: 30px;
+            border-radius: 20px;
+            border: 2px solid  #ffcc00;;
+            margin-bottom: 10px;
+            outline: none;
+
+         }
+           #form button{
+            width: 84%;
+            background-color: #ffcc00;
+            margin-top: 5px;
+            border-radius: 20px;
+            height: 35px;
+            border: none;
+            cursor: pointer;
+            font-weight: bolder;
+            font-family: 'mtn';
+         }
+
+         #form #curve-color{
+             height: 90px;
+             border-top-left-radius: 20px;
+             border-top-right-radius:20px;
+             border-bottom-left-radius: 50%;
+             border-bottom-right-radius: 50%;
+             background-color: #ffcc00;
+             box-sizing: border-box;
+
+         }
+         
+         #form #curve-color h3{
+             color: black;
+             padding-top: 20px;
+             padding-right: 10px;
+             padding-left: 10px;
+             box-sizing: border-box;
+
+
+
+         }
+
+         #welcome h1{
+             width: 25%;
+             float: left;
+             margin-left: 22%;
+             text-align: center;
+             color: white;
+             font-size: 50px;
+             font-family: 'mtn';
+           }
+         #welcome{
+            margin-left: 25%;
+
+         }
+         #welcome h2{
+             width: 25%;
+             float: left;
+             margin-top: 170px;
+             margin-left: 22%;
+             text-align: center;
+             color: white;
+             font-size: 40px;
+             font-family: 'mtn';
+            
+         }
+
+         #myfooter{
+             background-color: #e3e3e3;
+         }
+
+         #footer{
+             width: 60%;
+             padding: 20px;
+             text-align: center;
+             margin: auto;
+         }
+
+             #footer p{
+            font-family: 'mtn';
+            color: rgb(54, 52, 52);
+            font-size: 14px;
+         }
+
+        #footer a{
+            color: rgb(43, 86, 214);
+         }
+
+         @media(max-width:690px){
+             #logo-div{
+                 margin: auto;
+             }
+             #form{
+             width: 80%;
+             background-color: white;
+             height: 280px;
+             margin: auto;
+             float: none;
+             margin-top: 65px;
+             text-align: center;
+
+         }
+
+             #welcome{
+             width: 50%;
+             margin:auto;
+             width: 100%;
+
+         }
+
+            #top{
+                width: 100%;
+        }
+            #welcome h1{
+             width: 80%;
+             float: left;
+             margin-left: 0%;
+           
+           }
+         #welcome{
+            display: none;
+
+         }
+         #welcome h2{
+             width: 80%;
+             margin-left: 0%;
+       
+         }
+            #section2div h2{
+             display: block;
+         }
+            #form input{
+           
+            width: 79%;
+           
+
+         }
+           #form button{
+            width: 84%;
+            
+         }
+
+
+              #section2div #hideh1{
+             display: block;
+         }
+
+         }
